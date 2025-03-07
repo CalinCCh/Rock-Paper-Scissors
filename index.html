@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-    <style>
-        html {
-            background-color: #000B18;
-        }
-    </style>
-</head>
-<body>
+  </head>
+  <body>
+    
+    <div class="score">
+      <p>SCORE</p>
+      <a id="humanScore">Human: 0</a>
+      <a id="computerScore">Robot: 0</a>
+    </div>
 
-<script src="javascript.js"></script>
-</body>
+    <div class="buttons">
+      <button id="rock">✊ Rock</button>
+      <button id="paper">✋ Paper</button>
+      <button id ="scissors">✌ Scissors</button>
+    </div>
+    <div class="results" id="results"></div>
+    <div class="results" id="finalResults"></div>
+
+    <script src="javascript.js"></script>
+  </body>
 </html>

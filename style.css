@@ -1,0 +1,47 @@
+
+
+
+body {
+    font-family:'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: darkslategrey;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.score p {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.score a {
+  margin-inline: 20px;
+}
+
+.score {
+  margin: 20px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+button {
+  font-size: 18px;
+  padding: 2em;
+  width: 250px;
+}
+
+.results {
+  margin-block: 20px;
+  font-size: 18px;
+}
